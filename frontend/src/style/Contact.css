@@ -1,0 +1,102 @@
+.contact {
+  min-height: 100vh;
+  color: #eaeaea;
+  padding: 6rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/* ===== HERO ===== */
+.contact-hero {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-hero h1 {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.contact-hero p {
+  color: #9ca3af;
+  line-height: 1.7;
+}
+
+/* ===== INFO CARDS ===== */
+.contact-info {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.info-card {
+  background: rgba(15, 15, 15, 0.7);
+  border-radius: 14px;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+}
+
+.info-card h3 {
+  color: #f59e0b;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.info-card p {
+  color: #9ca3af;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ===== FORM ===== */
+.contact-form-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form-wrapper h2 {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: rgba(10, 10, 10, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  color: #eaeaea;
+  font-size: 0.95rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #6b7280;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #f59e0b;
+}
+
+/* Button reuse */
+.contact-form button {
+  align-self: center;
+  margin-top: 1rem;
+}

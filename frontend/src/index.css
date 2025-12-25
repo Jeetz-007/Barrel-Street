@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Color Palette */
+:root {
+  /* Backgrounds */
+  --bg-primary: #0E0C0A;      /* Main background (charcoal) */
+  --bg-card: #1A1714;         /* Cards / sections */
+  --bg-elevated: #24201C;     /* Modals / hover surfaces */
+
+  /* Text */
+  --text-primary: #F5F5F5;    /* Main text */
+  --text-secondary: #BFB6AA;  /* Muted text */
+  --text-muted: #8E877C;      /* Subtle labels */
+
+  /* Accent (Amber) */
+  --accent: #FF9F1C;
+  --accent-hover: #E8890B;
+  --accent-soft: rgba(255, 159, 28, 0.12);
+
+  /* Borders & Glow */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --glow-amber: rgba(255, 159, 28, 0.25);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary); /* FIX 2 */
+  /* line-height: 1.6; */
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  /* font-family: 'Playfair Display', serif; */
+  font-weight: 600;
+}
