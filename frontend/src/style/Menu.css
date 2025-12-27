@@ -60,11 +60,35 @@
   text-align: center;
 }
 
+.vodka{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.whisky{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* place-items: center; */
+}
+
 .menu-item img {
-  width: 60px;
+  width: 180px;
   opacity: 0.6;
   margin-bottom: 1rem;
+  border-radius: 12px;
 }
+
+.menu-item img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover img {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 170, 0, 0.85);
+}
+
 
 .item-name {
   font-size: 1.6rem;
@@ -81,4 +105,3 @@
   font-size: 0.9rem;
   color: #eaeaea;
 }
-
