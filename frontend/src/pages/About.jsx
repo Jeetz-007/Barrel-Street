@@ -2,7 +2,6 @@ function About() {
   return (
     <section className="about">
 
-      {/* HERO */}
       <div className="about-hero">
         <h1>About Barrel Street</h1>
         <p>
@@ -13,7 +12,7 @@ function About() {
 
       <div className="about-divider"></div>
 
-      {/* STORY */}
+
       <div className="about-content">
         <p>
           From carefully selected spirits to a space designed for comfort and
@@ -28,7 +27,10 @@ function About() {
         </p>
       </div>
 
-      {/* PHILOSOPHY */}
+      
+
+
+
       <div className="about-philosophy">
         <h2>Our Philosophy</h2>
         <p>

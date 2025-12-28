@@ -2,7 +2,6 @@ function Contact() {
   return (
     <section className="contact">
 
-      {/* HEADER */}
       <div className="contact-hero">
         <h1>Contact Us</h1>
         <p>
@@ -11,7 +10,6 @@ function Contact() {
         </p>
       </div>
 
-      {/* INFO */}
       <div className="contact-info">
         <div className="info-card">
           <h3>Visit Us</h3>
@@ -33,7 +31,6 @@ function Contact() {
         </div>
       </div>
 
-      {/* FORM */}
       <div className="contact-form-wrapper">
         <h2>Send Us a Message</h2>
 

@@ -104,3 +104,109 @@
   line-height: 1.8;
   font-size: 1rem;
 }
+
+
+/* =========================
+   Small Laptops & Tablets
+   ========================= */
+@media (max-width: 1024px) {
+  .about {
+    padding: 5rem 1.5rem;
+    gap: 3.5rem;
+  }
+
+  .about-highlights {
+    gap: 1.5rem;
+  }
+}
+
+/* =========================
+   Tablets
+   ========================= */
+@media (max-width: 768px) {
+  .about {
+    padding: 4.5rem 1.25rem;
+    gap: 3rem;
+  }
+
+  .about-hero h1 {
+    font-size: clamp(2rem, 5vw, 2.8rem);
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .about-philosophy h2,
+  .about-why h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-content {
+    font-size: 0.95rem;
+  }
+}
+
+/* =========================
+   Large Phones
+   ========================= */
+@media (max-width: 640px) {
+  .about {
+    padding: 4rem 1rem;
+    gap: 2.75rem;
+  }
+
+  .about-divider {
+    width: 60px;
+  }
+
+  .about-highlights {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .highlight {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .highlight h3 {
+    font-size: 1rem;
+  }
+
+  .highlight p {
+    font-size: 0.9rem;
+  }
+}
+
+/* =========================
+   Small Phones
+   ========================= */
+@media (max-width: 480px) {
+  .about {
+    padding: 3.5rem 0.9rem;
+    gap: 2.5rem;
+  }
+
+  .about-hero h1 {
+    font-size: 1.9rem;
+  }
+
+  .about-hero p {
+    font-size: 0.95rem;
+  }
+
+  .about-philosophy h2,
+  .about-why h2 {
+    font-size: 1.45rem;
+  }
+
+  .about-philosophy p,
+  .about-why p {
+    font-size: 0.95rem;
+  }
+
+  .highlight {
+    padding: 1.6rem 1.25rem;
+
+  }
+}

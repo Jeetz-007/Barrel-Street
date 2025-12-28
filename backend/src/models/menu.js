@@ -11,9 +11,13 @@ const menuSchema = new mongoose.Schema(
     category: {
       type: String,
       required: true,
-      enum: ["vodka", "whisky"],
+      enum: ["vodka", "whisky","beers"],
     },
 
+    description : {
+      type : String,
+      required : true,
+    },
     price: {
       ml30: {
         type: Number,
@@ -24,15 +28,6 @@ const menuSchema = new mongoose.Schema(
         required: true,
       },
     },
-
-    isAvailable: {
-      type: Boolean,
-      default: true,
-    },
-
-    imageURL : {
-        type : String
-    }
   },
   { timestamps: true }
 );
